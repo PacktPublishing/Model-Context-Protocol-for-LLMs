@@ -90,13 +90,6 @@ MCP integration with multi-agent frameworks using an AutoGen-inspired pattern.
 Simplified RAG system using MCP-style data sources.
 - `mcp_rag_system.py` - RAG pipeline with MCP resource integration
 
-### [Chapter 12: MCP and LangChain Integration](chapter-12/)
-Document management, tool wrapping, memory, and complete application workflows.
-- `mcp_document_store.py` - MCP document resource provider
-- `mcp_langchain_tools.py` - MCP tools wrapped for LangChain
-- `mcp_langchain_memory.py` - MCP-backed conversation memory
-- `langchain_research_workflow.py` - End-to-end research workflow
-
 ### [Chapter 13: Integrating MCP with AutoGen](chapter-13/)
 MCP tool wrapping for AutoGen-style multi-agent systems.
 - `autogen_mcp_integration.py` - AutoGen agents using MCP tools
@@ -167,9 +160,6 @@ python chapter-10/multi_agent_mcp.py
 
 # Chapter 11 - RAG with MCP
 python chapter-11/mcp_rag_system.py
-
-# Chapter 12 - LangChain Integration
-python chapter-12/langchain_research_workflow.py
 
 # Chapter 13 - AutoGen Integration
 python chapter-13/autogen_mcp_integration.py
