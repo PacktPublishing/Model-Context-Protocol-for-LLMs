@@ -1,9 +1,9 @@
 """Simple MCP‑based document loader and retrieval example.
 
 This example demonstrates how an MCP client could treat MCP servers as document
-stores for retrieval‑augmented generation.  We implement a minimal in‑memory
+stores for retrieval‑augmented generation. We implement a minimal in‑memory
 server and loader, then build a tiny RAG system using scikit‑learn's TF–IDF
-vectorizer to search documents.  This avoids external dependencies on the
+vectorizer to search documents. This avoids external dependencies on the
 `langchain` or `mcp` Python packages while still illustrating the core
 concepts.
 """
